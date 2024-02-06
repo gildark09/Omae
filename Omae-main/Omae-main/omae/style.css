@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h3 {
+    font-size: 25px;
+    color: #FEF6C9;
+    font-family: 'Gamja Flower', sans-serif;
+    opacity: 75%;
+}
+
+h2 {
+    font-size: 40px;
+    color: #9AD4D6;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("img/pxfuel.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.header {
+    text-align: center;
+}
+
+h1{
+    font-size: 65px;
+    padding-top: 20px;
+    font-family: 'Rubik Glitch Pop', system-ui;
+    color: #7E78D2;
+}
+
+.nxt-btn {
+    text-decoration: none;
+    padding: 12px 34px;
+    background-color: #7E78D2;
+    font-size: 6px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #FEF6C9;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    border: 1px solid #fff;
+    background: #7E78D2;
+    transition: 1s;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.happy {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/happy.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 95px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.sad {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/sad.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 95px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.lonely {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/lonely.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 85px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.angry {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/angry.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 85px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.dissapointed {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/dissapointed.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 85px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.love {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/love.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 85px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.insecure {
+    height: 420px;
+    width: 330px;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url("img/insecured.jpg");
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    padding: 75px 20px 20px 20px;
+    border: 5px solid;
+    border-color: #7E78D2;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+/* HAPPY SECTION HERE */
+
+.nxt-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+}
+
+p {
+    font-family: 'Gamja Flower', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.essay {
+    border: 4px solid;
+    border-color: #7E78D2;
+    border-radius: 30px;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    margin: 0px 200px 0 200px;
+}
+
+.essay-happy {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://media1.tenor.com/m/auwW9Vb5uK0AAAAC/happy-dance.gif");
+    background-size: contain;
+}
+
+.essay-sad {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://i.pinimg.com/originals/f3/eb/9c/f3eb9caf05a81fcd993976036710cb31.gif");
+    background-size: contain; 
+}
+
+.essay-angry {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://media1.tenor.com/m/AkKnDuktTaEAAAAC/yelynn-tat-dau-yelynn.gif");
+    background-size: contain; 
+}
+
+.essay-dissapointed {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://i.pinimg.com/originals/ea/c7/23/eac72330bfe70e0158b9ed78871028e1.gif");
+    background-size: contain; 
+}
+
+.essay-insecure {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://i.pinimg.com/originals/f3/eb/9c/f3eb9caf05a81fcd993976036710cb31.gif");
+    background-size: contain; 
+}
+
+.essay-lonely {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://i.pinimg.com/564x/c5/27/2a/c5272affc21c1934a8b9123b399a4149.jpg");
+    background-size: contain; 
+}
+
+.essay-love {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://i.pinimg.com/originals/5c/71/69/5c7169ee6ff6887a733cddc551760c6f.gif");
+    background-size: contain; 
+}
+
+.essay-tired {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://i.pinimg.com/564x/66/b4/90/66b4903f7d93eb36967ea0eb8ad193af.jpg");
+    background-size: contain; 
+}
+
+@media screen and (max-width: 850px){ 
+    p{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    .essay {
+        padding: 7px;
+        top: 35%;
+    }
+}
+
+@media screen and (max-width: 580px){ 
+    p{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .essay {
+        padding: 10px;
+        top: 30%;
+    }
+}
